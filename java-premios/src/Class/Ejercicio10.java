@@ -16,9 +16,9 @@ public class Ejercicio10 extends Class{
     @Override
     public void Logica() {
         if(this.getNum()>this.getNum2()){
-            System.out.println("El primer numero es mayor: "+this.getNum());
+            System.out.println("El primer numero es mayor: "+Math.round(this.getNum()));
         }else{
-            System.out.println("El segundo numero es mayor: "+this.getNum2());
+            System.out.println("El segundo numero es mayor: "+Math.round(this.getNum2()));
         }
     }
 
